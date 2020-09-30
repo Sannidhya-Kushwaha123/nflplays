@@ -130,7 +130,7 @@ Below are the MySQL conditionals I used to assign PLAY_TYPE values:
 	CHALLENGE_SUCCESSFUL	DESCRIPTION LIKE "%challenge%" AND DESCRIPTION NOT REGEXP "(confirmed|upheld|not overturned)" AND DESCRIPTION NOT REGEXP "(unchallengable|not challengable|not reviewable|unreviewable|inoperable|cannot be challenged|review equipment|malfunction|none remaining|prevent challenge)"
 	CHALLENGE_FAIL			DESCRIPTION LIKE "%challenge%" AND DESCRIPTION REGEXP "(confirmed|upheld|not overturned)"
 
-Contact
+Contact:-
 -----
 
 Noah Veltman  
